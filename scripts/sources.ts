@@ -10,6 +10,8 @@
  * Adding / removing / disabling sources is done by editing
  * sources.config.json directly — JSON is the canonical store.
  */
+import "./_env";
+
 import { loadAllSources, REPORT_LOCALE } from "../lib/sources/registry";
 import type { SourceDef } from "../lib/sources/types";
 

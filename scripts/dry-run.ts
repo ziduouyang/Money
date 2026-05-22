@@ -1,5 +1,4 @@
-import { config } from "dotenv";
-config({ path: ".env.local" });
+import "./_env";
 
 import { sources } from "../lib/sources/registry";
 import { fetchSource } from "../lib/sources/dispatch";
