@@ -309,6 +309,7 @@ REPORT_LOCALE=zh    # 默认 — 中文 mode，含 V2EX / LinuxDo / DW 中文等
 **通用覆盖项**：
 - `LLM_MODEL=<id>` —— 任意 backend 的 model 都能用这个变量覆盖默认（如 `LLM_MODEL=gpt-4o` 走 openai 的更大模型）
 - `<BACKEND>_BASE_URL` —— 走自托管代理 / 兼容服务（如 LM Studio / Ollama 跑 OpenAI 兼容接口 → `LLM_BACKEND=openai` + `OPENAI_BASE_URL=http://localhost:1234/v1`）
+- `LLM_API_KEY` / `LLM_BASE_URL` —— **通用别名**，专用变量没设时 fallback 到这里。用 Moonshot / SiliconFlow / OpenRouter / 自建反代等非预设服务时推荐用这对，避免 `OPENAI_API_KEY` 这样的语义错位。例：跑 Moonshot 只要 `LLM_BACKEND=openai` + `LLM_API_KEY=sk-...` + `LLM_BASE_URL=https://api.moonshot.cn/v1` + `LLM_MODEL=moonshot-v1-8k`
 
 ### 怎么选
 
@@ -763,6 +764,7 @@ Copy `.env.example` to `.env.local` (gitignored), uncomment the section for your
 **Universal overrides**:
 - `LLM_MODEL=<id>` — works for any backend (e.g. `LLM_MODEL=gpt-4o` to use OpenAI's bigger model)
 - `<BACKEND>_BASE_URL` — for self-hosted proxies or OpenAI-compatible services (e.g. LM Studio / Ollama → `LLM_BACKEND=openai` + `OPENAI_BASE_URL=http://localhost:1234/v1`)
+- `LLM_API_KEY` / `LLM_BASE_URL` — **generic aliases**, used as fallback when the provider-specific vars aren't set. Use this pair for Moonshot / SiliconFlow / OpenRouter / self-hosted proxies — anything not in the preset list — so you don't have to misuse `OPENAI_API_KEY` just to reach a non-OpenAI service. Example for Moonshot: `LLM_BACKEND=openai` + `LLM_API_KEY=sk-...` + `LLM_BASE_URL=https://api.moonshot.cn/v1` + `LLM_MODEL=moonshot-v1-8k`
 
 ### How to pick
 

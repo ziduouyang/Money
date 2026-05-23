@@ -166,6 +166,12 @@ jobs:
           OPENAI_BASE_URL: ${{ vars.OPENAI_BASE_URL }}
           DEEPSEEK_BASE_URL: ${{ vars.DEEPSEEK_BASE_URL }}
           MINIMAX_BASE_URL: ${{ vars.MINIMAX_BASE_URL }}
+          # Generic aliases — handy when pointing at an OpenAI/Anthropic
+          # compatible service that isn't one of the named presets (Moonshot,
+          # SiliconFlow, OpenRouter, self-hosted, ...). Provider-specific
+          # vars above take precedence when both are set.
+          LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
+          LLM_BASE_URL: ${{ vars.LLM_BASE_URL }}
           REPORT_LOCALE: ${{ vars.REPORT_LOCALE || 'zh' }}
           REPORT_TZ: ${{ vars.REPORT_TZ }}
           WEB_MODE: 'true'

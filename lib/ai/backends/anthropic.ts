@@ -7,13 +7,19 @@ export const ANTHROPIC_DEFAULT_MODEL = "claude-sonnet-4-6";
 let cachedClient: Anthropic | null = null;
 function getClient(): Anthropic {
   if (cachedClient) return cachedClient;
-  const apiKey = process.env.ANTHROPIC_API_KEY;
+  // ANTHROPIC_* wins; LLM_API_KEY / LLM_BASE_URL are generic aliases for
+  // users pointing at a custom Anthropic-compatible endpoint (claude-relay
+  // and friends).
+  const apiKey = process.env.ANTHROPIC_API_KEY || process.env.LLM_API_KEY;
   if (!apiKey) {
     throw new Error(
-      "ANTHROPIC_API_KEY is required for LLM_BACKEND=anthropic. Set it in .env.local.",
+      "ANTHROPIC_API_KEY (or generic LLM_API_KEY) is required for LLM_BACKEND=anthropic. Set it in .env.local.",
     );
   }
-  const baseURL = process.env.ANTHROPIC_BASE_URL?.trim() || undefined;
+  const baseURL =
+    process.env.ANTHROPIC_BASE_URL?.trim()
+    || process.env.LLM_BASE_URL?.trim()
+    || undefined;
   cachedClient = new Anthropic({ apiKey, ...(baseURL ? { baseURL } : {}) });
   return cachedClient;
 }

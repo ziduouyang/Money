@@ -45,13 +45,19 @@ export const PRESETS: Record<OpenAICompatConfig["backend"], OpenAICompatConfig> 
 const clientCache = new Map<string, OpenAI>();
 
 function getClient(cfg: OpenAICompatConfig): { client: OpenAI; model: string } {
-  const apiKey = process.env[cfg.apiKeyEnv];
+  // Provider-specific env wins; LLM_API_KEY / LLM_BASE_URL are generic
+  // aliases so users pointing at a non-preset OpenAI-compatible service
+  // (Moonshot, SiliconFlow, OpenRouter, self-hosted vLLM, ...) don't have
+  // to misuse the OPENAI_* variable names just to reach a custom endpoint.
+  const apiKey = process.env[cfg.apiKeyEnv] || process.env.LLM_API_KEY;
   if (!apiKey) {
     throw new Error(
-      `${cfg.apiKeyEnv} is required for LLM_BACKEND=${cfg.backend}. Set it in .env.local.`,
+      `${cfg.apiKeyEnv} (or generic LLM_API_KEY) is required for LLM_BACKEND=${cfg.backend}. Set it in .env.local.`,
     );
   }
-  const baseURL = process.env[cfg.baseUrlEnv]?.trim() || cfg.defaultBaseUrl;
+  const baseURL = process.env[cfg.baseUrlEnv]?.trim()
+    || process.env.LLM_BASE_URL?.trim()
+    || cfg.defaultBaseUrl;
   const model = process.env.LLM_MODEL?.trim() || cfg.defaultModel;
 
   const cacheKey = `${baseURL}::${apiKey.slice(-6)}`;
