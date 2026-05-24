@@ -126,7 +126,7 @@ async function enrichPapers(articles: ArticleInput[]): Promise<void> {
   const papers = articles.filter((a) => a.sourceId === "huggingface-papers");
   if (papers.length === 0) return;
   console.log(
-    [daily] enriching  HF papers with  summaries…,
+    `[daily] enriching ${papers.length} HF papers with ${REPORT_LOCALE} summaries…`,
   );
   const t0 = Date.now();
   const summaries = await enrichPapersSummaries(papers);
@@ -135,7 +135,7 @@ async function enrichPapers(articles: ArticleInput[]): Promise<void> {
     if (s) a.summary = s;
   }
   console.log(
-    [daily] enrichment done in s, matched /,
+    `[daily] enrichment done in ${((Date.now() - t0) / 1000).toFixed(1)}s, matched ${summaries.size}/${papers.length}`,
   );
 }
 
