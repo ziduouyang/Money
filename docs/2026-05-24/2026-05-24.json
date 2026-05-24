@@ -1,143 +1,135 @@
 {
-  "hero_headline": "美伊和谈获重大进展，霍尔木兹有望重开",
-  "daily_overview": "今日美伊和谈传出重大进展，国务卿鲁比奥称协议已‘基本协商完成’，霍尔木兹海峡或将在数周内恢复通行，缓解全球能源供应紧张。科技方面，OpenAI Codex被Gartner评为企业AI编码领导者，NVIDIA推出Nemotron-Labs扩散模型实现高效文本生成，AI编程工具化趋势加速。财经领域，欧洲央行面临加息压力，中国煤矿爆炸事故引发能源安全反思，韩国市场将引入高风险杠杆ETF。整体呈现地缘风险缓和与科技竞争深化并行的格局。",
+  "hero_headline": "美伊接近达成和平协议 霍尔木兹海峡或恢复通行",
+  "daily_overview": "美伊和平谈判取得重大进展，霍尔木兹海峡有望重新开放，全球能源市场闻讯波动。欧洲央行面临加息压力以应对伊朗战争推高的物价。俄罗斯使用高超音速导弹大规模攻击乌克兰，造成多人伤亡；台湾海峡局势因中国海警船活动再次升温。科技领域，AI智能体竞争白热化：OpenAI获Gartner认可、Google I/O展示AI驱动科学、NVIDIA发布扩散语言模型、DeepMind在逆转细胞衰老上取得突破。",
   "tech_briefs": [
     {
-      "title": "代码转知识图谱工具Understand-Anything开源",
-      "url": "https://github.com/Lum1104/Understand-Anything",
-      "source": "GitHub Trending",
-      "summary": "开源项目可将任意代码转化为交互式知识图谱，支持搜索与提问，兼容Claude Code、Codex、Cursor等主流AI编程工具，降低代码理解门槛。",
-      "importance": 8
-    },
-    {
-      "title": "OpenAI Codex摘得Gartner企业AI编码领导者",
+      "title": "OpenAI被Gartner评为企业编码智能体领导者",
       "url": "https://openai.com/index/gartner-2026-agentic-coding-leader",
       "source": "OpenAI News",
-      "summary": "OpenAI被Gartner评为2026年企业AI编码领域领导者，Codex在创新性与企业级部署方面获高度认可。",
+      "summary": "OpenAI在2026年Gartner企业AI编码智能体魔力象限中被评为领导者，Codex因创新和企业级部署能力获认可。",
       "importance": 9
     },
     {
-      "title": "Google DeepMind启动亚太环境风险加速器",
-      "url": "https://deepmind.google/blog/were-launching-the-google-deepmind-accelerator-program-in-asia-pacific-to-tackle-environmental-risks/",
-      "source": "DeepMind Blog",
-      "summary": "DeepMind在亚太地区推出加速器项目，利用AI技术帮助应对环境风险，推动可持续发展。",
-      "importance": 7
-    },
-    {
-      "title": "NVIDIA发布Nemotron-Labs扩散语言模型",
+      "title": "NVIDIA发布扩散语言模型Nemotron",
       "url": "https://huggingface.co/blog/nvidia/nemotron-labs-diffusion",
       "source": "Hugging Face Blog",
-      "summary": "NVIDIA推出Nemotron-Labs系列扩散语言模型，宣称能实现接近光速的文本生成，显著提升推理效率。",
+      "summary": "NVIDIA推出Nemotron-Labs扩散语言模型，声称生成速度接近光速，大幅提升文本生成效率。",
       "importance": 8
     },
     {
-      "title": "维珍大西洋航空借助Codex加速应用开发",
-      "url": "https://openai.com/index/virgin-atlantic",
-      "source": "OpenAI News",
-      "summary": "维珍大西洋航空使用OpenAI Codex在固定假期截止前完成移动应用改版，实现近100%单元测试覆盖和零P1缺陷。",
-      "importance": 6
+      "title": "Google I/O: AI驱动科学路径正在转变",
+      "url": "https://www.technologyreview.com/2026/05/22/1137813/google-i-o-showed-how-the-path-for-ai-science-is-shifting/",
+      "source": "MIT Tech Review AI",
+      "summary": "Google DeepMind CEO称当前正处于「奇点山麓」，AI正从感知向深度科学理解转变。",
+      "importance": 8
+    },
+    {
+      "title": "DeepMind加速遗传线索发现 逆转细胞衰老",
+      "url": "https://deepmind.google/blog/fast-tracking-genetic-leads-to-reverse-cellular-aging/",
+      "source": "DeepMind Blog",
+      "summary": "生物学家使用AI协同科学家系统找到可成功逆转人类细胞衰老的新因子，为抗衰老研究开辟新路。",
+      "importance": 8
     }
   ],
   "finance_briefs": [
     {
-      "title": "欧洲央行面临加息压力，伊朗战争推高物价",
-      "url": "https://www.bloomberg.com/news/articles/2026-05-24/ecb-faces-pressure-to-hike-as-iran-war-feeds-prices-kocher-says",
-      "source": "Bloomberg Markets",
-      "summary": "欧洲央行管委表示，若无可持续和平协议，下月可能加息；伊朗战争持续推高能源与商品价格。",
-      "importance": 9
-    },
-    {
-      "title": "伊朗战争后首艘LNG油轮经霍尔木兹驶往印度",
+      "title": "美伊协议信号 首艘LNG油轮驶出霍尔木兹海峡赴印",
       "url": "https://www.bloomberg.com/news/articles/2026-05-24/lng-tanker-exits-hormuz-for-india-for-first-time-since-war-began",
       "source": "Bloomberg Markets",
-      "summary": "自伊朗战争爆发以来，首艘LNG油轮通过霍尔木兹海峡驶往印度，标志地区能源出口可能复苏。",
+      "summary": "一艘液化天然气油轮自伊朗战争爆发以来首次驶出霍尔木兹海峡前往印度，标志能源供应有望恢复。",
       "importance": 9
     },
     {
-      "title": "中国煤矿爆炸冲击能源安全政策",
+      "title": "ECB面临加息压力 伊朗战争推高物价",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-24/ecb-faces-pressure-to-hike-as-iran-war-feeds-prices-kocher-says",
+      "source": "Bloomberg Markets",
+      "summary": "欧洲央行管委表示，若美伊未达成可持续和平协议，央行下月可能被迫加息以抑制通胀。",
+      "importance": 9
+    },
+    {
+      "title": "中国煤矿爆炸考验能源安全策略",
       "url": "https://www.bloomberg.com/news/articles/2026-05-24/china-coal-mine-blast-tests-limits-of-xi-s-energy-security-push",
       "source": "Bloomberg Markets",
-      "summary": "中国发生严重煤矿爆炸事故，引发对过度依赖煤炭能源策略的质疑，安全与产能平衡受考验。",
+      "summary": "中国煤矿发生严重爆炸事故，引发对能源安全政策下高产量代价的质疑。",
       "importance": 8
     },
     {
-      "title": "韩国将推出单只股票杠杆ETF，风险或放大",
-      "url": "https://www.bloomberg.com/news/articles/2026-05-24/world-s-most-fervent-day-traders-in-korea-to-get-risky-new-tools",
-      "source": "Bloomberg Markets",
-      "summary": "全球波动最大市场之一韩国将首次推出单只股票杠杆ETF，可能大幅放大收益与损失。",
-      "importance": 7
-    },
-    {
-      "title": "AI迫使麦肯锡等咨询公司重新定价",
+      "title": "AI迫使麦肯锡等咨询巨头重新思考定价模式",
       "url": "https://www.ft.com/content/8318a754-7b63-4f1f-8978-7691e7ed3511",
       "source": "Financial Times",
-      "summary": "AI技术发展促使咨询客户质疑传统付费模式，更多转向按任务完成情况付费，行业定价逻辑面临变革。",
-      "importance": 6
+      "summary": "客户开始质疑咨询建议的价值，更接受按成功完成任务收费的模式，AI加速了这一转变。",
+      "importance": 7
     }
   ],
   "politics_briefs": [
     {
-      "title": "美伊和谈传出重大进展，霍尔木兹海峡或数周内重开",
-      "url": "https://www.bloomberg.com/news/articles/2026-05-24/trump-touts-imminent-iran-deal-that-would-reopen-hormuz-strait",
-      "source": "Bloomberg Markets",
-      "summary": "美国国务卿鲁比奥称美伊谈判取得重大进展，特朗普表示协议‘基本协商完成’，霍尔木兹海峡有望在数周内恢复通航。（多家报道）",
+      "title": "俄罗斯用高超音速导弹大规模攻击乌克兰",
+      "url": "https://www.bbc.com/news/articles/clyp6831yp5o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC World",
+      "summary": "俄军对基辅发动大规模无人机与导弹袭击，使用超10倍音速的「奥列什尼克」导弹，至少4死数十人伤。（多家报道）",
       "importance": 10
     },
     {
-      "title": "俄罗斯使用高超音速导弹大规模袭击基辅",
-      "url": "https://www.bbc.com/news/articles/clyp6831yp5o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC World",
-      "summary": "俄罗斯在周日对基辅发动大规模无人机和导弹袭击，首次使用‘奥列什尼克’高超音速导弹，造成至少4人死亡、数十人受伤。（多家报道）",
-      "importance": 9
+      "title": "美伊接近初步和平协议 细节仍待澄清",
+      "url": "https://www.theguardian.com/world/2026/may/24/iran-leader-and-security-council-still-need-to-approve-peace-deal-with-us",
+      "source": "The Guardian",
+      "summary": "特朗普称美伊「基本达成」协议，但伊朗方称最高领袖和安全委员会仍需批准，部分条款待厘清。（多家报道）",
+      "importance": 10
     },
     {
-      "title": "白宫外发生枪击案，枪手被特勤局击毙",
-      "url": "https://www.dw.com/zh/白宫外发生枪击案-枪手遭特勤局击毙/a-77278563?maca=chi-rss-chi-all-1127-rdf",
+      "title": "台湾称中国海警船强闯东沙水域",
+      "url": "https://www.dw.com/zh/台湾称中国海警船-强闯东沙水域/a-77279435?maca=chi-rss-chi-all-1127-rdf",
       "source": "DW 中文",
-      "summary": "一名男子在白宫安全检查站附近开枪，特勤人员交火中将其击毙，事发时特朗普正在白宫内。",
-      "importance": 7
+      "summary": "台海巡署称一艘中国海警船进入东沙群岛附近水域并发生对峙，近期中国在「第一岛链」部署超百艘船只。",
+      "importance": 9
     }
   ],
-  "editor_note": "美伊和谈曙光初现，地缘风险有望阶段性缓解；AI领域技术迭代加速，编码工具化趋势催生新产业形态。",
+  "editor_note": "今日焦点集中在美伊和平进程与俄乌冲突升级，地缘政治风险主导市场。AI领域新技术与商业动态并进，建议关注智能体框架对行业的重塑。",
   "keywords": [
-    "美伊和谈",
+    "美伊和平协议",
     "霍尔木兹海峡",
-    "AI编码",
-    "扩散模型",
-    "欧洲央行加息",
-    "俄罗斯导弹",
-    "白宫枪击",
-    "中国煤矿"
+    "ECB加息",
+    "AI智能体",
+    "OpenAI",
+    "俄罗斯导弹攻击",
+    "台湾海峡",
+    "通货膨胀"
   ],
   "trading": {
-    "market_overview": "截至当前，市场技术面呈现显著分化。美股主要指数（SPY、QQQ）延续多头排列，价格高于关键均线，但QQQ RSI 14达到71.4超买区且MACD出现死叉，短期回调风险上升；AAPL、NVDA等个股同样出现超买或死叉信号。加密市场持续承压，恐慌贪婪指数仅为25（极度恐慌），总市值2.65万亿美元，24小时微涨2.94%，但BTC、ETH、SOL均处于空头排列或弱势格局，RSI多在40-50之间，MACD负柱，ETH更从52周高回撤57.15%，空头动能充足。中概股（BABA、PDD、0700.HK）普遍空头排列，RSI低于45，MACD死叉，接近52周低点，技术面疲弱。商品外汇方面，黄金、原油RSI在40-47，MACD死叉，处于调整中；美元指数DXY多头排列，RSI 58.4，接近52周高，显示美元走强；10Y美债收益率亦多头排列，RSI 60.1。整体看，美股虽强但超买信号增多，加密与中概延续弱势，美元资产相对强势，市场风险偏好趋于谨慎。",
+    "market_overview": "市场技术面分化明显。美股方面，SPY、QQQ接近52周高点但MACD出现死叉，RSI偏高，短期动能可能放缓；AAPL超买但多头排列强势，META空头排列疲弱。加密市场整体极度恐慌（恐慌贪婪指数25），总市值2.66T，BTC主导率58.2%、ETH占比9.6%；BTC处于中性震荡，ETH和SOL均呈空头排列，下行压力未消。中概股普遍弱势，BABA、PDD、腾讯均为空头或MACD死叉，仅京东略显中性。商品外汇中，黄金期货MACD死叉且跌破均线，原油期货周跌8.37%偏弱；美元指数多头排列接近52周高，10Y美债收益率亦为多头排列，宏观资产偏强。",
     "watchlist": [
       {
-        "symbol": "DX-Y.NYB",
-        "display_name": "美元指数 (DXY)",
+        "symbol": "^TNX",
+        "display_name": "10Y 美债收益率 (%)",
         "stance": "偏上行",
-        "rationale": "当前价格99.32高于SMA20(98.61)、SMA50(98.97)、SMA200(98.55)，形成多头排列。RSI14为58.4处于正常偏强区间，MACD(0.1444)大于信号线(0.0143)且柱线为正，MACD金叉状态。近5日微涨0.05%，接近52周高（-1.31%），技术结构偏强，多头占优。"
+        "rationale": "当前收益率4.56%，高于SMA20（4.46）、SMA50（4.37）和SMA200（4.20），形成多头排列；RSI 60.1处于偏强区间；MACD柱线0.073高于信号线0.062，呈金叉状态；pct1D -0.61%但短期均线支撑上行趋势。"
       },
       {
         "symbol": "ETH-USD",
-        "display_name": "以太坊 (ETH-USD)",
+        "display_name": "Ethereum",
         "stance": "偏下行",
-        "rationale": "当前价格2122.78低于SMA20(2224.47)、SMA50(2264.52)、SMA200(2546.93)，呈空头排列。RSI14仅39.8，接近超卖区，MACD(-50.27)位于信号线(-35.57)下方，绿柱持续扩大，空头动量增强。从52周高回撤57.15%，近5日微涨0.61%但仍受均线压制，下行压力显著。"
+        "rationale": "价格2117.85低于SMA20（2224.22）、SMA50（2264.42）、SMA200（2546.91），空头排列明确；RSI 39.1处于弱势；MACD -50.66低于信号-35.65，死叉绿柱扩张；pct52WeekHigh -57.25%，整体下降趋势显著。"
+      },
+      {
+        "symbol": "BTC-USD",
+        "display_name": "Bitcoin",
+        "stance": "中性",
+        "rationale": "价格77008.84介于SMA20（79019.39）之下与SMA50（76772.07）之上，无明确方向；RSI 47接近中性；MACD -186.6低于信号341.2，虽处死叉但远离0轴，信号较弱；pct1D +0.44%，近5日+0.34%，横盘震荡。"
       },
       {
         "symbol": "AAPL",
-        "display_name": "苹果 (AAPL)",
-        "stance": "中性",
-        "rationale": "当前价格308.82远高于SMA20(289.35)、SMA50(270.55)、SMA200(261.55)，多头排列明确。但RSI14高达78.4，已进入超买区，提示短期过热。MACD(9.97)大于信号线(8.99)，金叉持续，柱线为正。近1日涨1.26%，接近52周高（-0.83%），超买状态可能限制上行空间，整体多空因素交织，技术面中性。"
+        "display_name": "Apple",
+        "stance": "偏上行",
+        "rationale": "价格308.82远高于SMA20（289.35）、SMA50（270.55）、SMA200（261.55），多头排列强劲；RSI 78.4超买但MACD 9.97高于信号8.99呈金叉；pct1D +1.26%、pct5D +2.86%，短期动能向上，但超买提示回调风险。"
       },
       {
         "symbol": "PDD",
         "display_name": "拼多多 (PDD)",
         "stance": "偏下行",
-        "rationale": "当前价格94.52低于SMA20(97.92)、SMA50(99.63)、SMA200(113.77)，空头排列。RSI14为41.7偏弱，MACD(-1.09)低于信号线(-0.95)，MACD死叉且绿柱，空头动量持续。近5日下跌1.37%，从52周高回落32.2%，接近52周低，下行压力明显，技术面偏空。"
+        "rationale": "价格94.52低于SMA20（97.92）、SMA50（99.63）、SMA200（113.77），空头排列；RSI 41.7偏弱；MACD -1.09低于信号-0.95，死叉运行；pct52WeekHigh -32.2%，近5日-1.37%，下行趋势未改。"
       }
     ],
-    "risk_caveat": "过去走势不代表未来表现，以上技术指标解读仅供参考，不构成任何投资建议。任何交易决策应基于投资者独立判断与风险评估。仅供技术指标解读参考。",
+    "risk_caveat": "过去走势不代表未来表现，技术指标解读仅反映当前数据形态，不构成投资建议。本报告仅供技术指标解读参考，任何交易决策需结合个人风险承受能力。",
     "tickers": [
       {
         "symbol": "SPY",
@@ -397,18 +389,18 @@
         "group": "crypto",
         "currency": "USD",
         "exchangeName": "CCC",
-        "currentPrice": 77150.83,
-        "pct1Day": 0.6227231567023733,
-        "pct5Day": 0.5210671372365739,
-        "pct52WeekHigh": -38.865285340734616,
-        "pct52WeekLow": 28.425890227790457,
-        "sma20": 79026.486328125,
-        "sma50": 76774.90640625,
-        "sma200": 80526.63349609375,
-        "rsi14": 47.532960486025075,
-        "macd": -175.26882301512524,
-        "macdSignal": 343.4417307915975,
-        "macdHistogram": -518.7105538067227,
+        "currentPrice": 77008.84,
+        "pct1Day": 0.43753499396944234,
+        "pct5Day": 0.3360660643664993,
+        "pct52WeekHigh": -38.97779894732147,
+        "pct52WeekLow": 28.18953253528806,
+        "sma20": 79019.387109375,
+        "sma50": 76772.06671875,
+        "sma200": 80525.92357421874,
+        "rsi14": 46.9595691782496,
+        "macd": -186.59521190401574,
+        "macdSignal": 341.17645301381935,
+        "macdHistogram": -527.7716649178351,
         "trend": "neutral",
         "rsiState": "normal",
         "signals": []
@@ -419,18 +411,18 @@
         "group": "crypto",
         "currency": "USD",
         "exchangeName": "CCC",
-        "currentPrice": 2122.78,
-        "pct1Day": 0.32271931825512085,
-        "pct5Day": 0.6074100609876134,
-        "pct52WeekHigh": -57.147872119874044,
-        "pct52WeekLow": 21.396910274268226,
-        "sma20": 2224.4659912109373,
-        "sma50": 2264.5168017578126,
-        "sma200": 2546.934091796875,
-        "rsi14": 39.75828620884864,
-        "macd": -50.266115675797664,
-        "macdSignal": -35.57243250716864,
-        "macdHistogram": -14.693683168629022,
+        "currentPrice": 2117.85,
+        "pct1Day": 0.08972720120152745,
+        "pct5Day": 0.3737567706792922,
+        "pct52WeekHigh": -57.24739302663264,
+        "pct52WeekLow": 21.11497490289099,
+        "sma20": 2224.2194946289064,
+        "sma50": 2264.418203125,
+        "sma200": 2546.9094421386717,
+        "rsi14": 39.092423732911826,
+        "macd": -50.659386575905046,
+        "macdSignal": -35.65108668719012,
+        "macdHistogram": -15.008299888714923,
         "trend": "bearish",
         "rsiState": "normal",
         "signals": [
@@ -446,18 +438,18 @@
         "group": "crypto",
         "currency": "USD",
         "exchangeName": "CCC",
-        "currentPrice": 86.32,
-        "pct1Day": 0.772269768973815,
-        "pct5Day": 2.5073413189168736,
-        "pct52WeekHigh": -65.90970574215305,
-        "pct52WeekLow": 25.662742860137588,
-        "sma20": 89.00794868469238,
-        "sma50": 86.45354385375977,
-        "sma200": 107.12353900909424,
-        "rsi14": 47.73653278682211,
-        "macd": -0.44356251527572965,
-        "macdSignal": 0.1568824268454841,
-        "macdHistogram": -0.6004449421212137,
+        "currentPrice": 86.23,
+        "pct1Day": 0.6672013690756853,
+        "pct5Day": 2.400463877782705,
+        "pct52WeekHigh": -65.94524937611048,
+        "pct52WeekLow": 25.531722854838574,
+        "sma20": 89.00344886779786,
+        "sma50": 86.45174392700196,
+        "sma200": 107.12308902740479,
+        "rsi14": 47.52827951113251,
+        "macd": -0.4507417103211395,
+        "macdSignal": 0.15544658783640214,
+        "macdHistogram": -0.6061882981575417,
         "trend": "bearish",
         "rsiState": "normal",
         "signals": [
@@ -778,13 +770,13 @@
       "timestamp": "2026-05-24T00:00:00.000Z"
     },
     "crypto_global": {
-      "totalMarketCapUsd": 2651899410003.664,
-      "total24hVolumeUsd": 74237462143.2145,
-      "marketCapChangePct24h": 2.936563611103233,
-      "btcDominance": 58.09223883160082,
-      "ethDominance": 9.64213903157091,
+      "totalMarketCapUsd": 2657227325935.4673,
+      "total24hVolumeUsd": 75502776794.48944,
+      "marketCapChangePct24h": 3.131455549726234,
+      "btcDominance": 58.15703587882136,
+      "ethDominance": 9.634751183728675,
       "activeCryptocurrencies": 17385
     },
-    "generated_at": "2026-05-24T10:28:05.997Z"
+    "generated_at": "2026-05-24T12:20:10.817Z"
   }
 }
