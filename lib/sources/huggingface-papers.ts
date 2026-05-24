@@ -1,4 +1,4 @@
-﻿import type { RawArticle } from "./types";
+import type { RawArticle } from "./types";
 
 interface HfPaperAuthor {
   name: string;
@@ -25,9 +25,30 @@ interface HfPaperEntry {
 
 const HF_PAPERS_URL = "https://huggingface.co/api/papers";
 
+/** Keyword list for topic filtering (case-insensitive). */
+const TOPIC_KEYWORDS = [
+  "reinforcement learning",
+  "world model",
+  "agentic",
+  "model-based reinforcement",
+  "model based reinforcement",
+  "deep rl",
+  "mbrl",
+  "multi-agent reinforcement",
+];
+
+function matchesTopic(title: string, excerpt: string): boolean {
+  const text = `${title} ${excerpt}`.toLowerCase();
+  return TOPIC_KEYWORDS.some((kw) => text.includes(kw));
+}
+
+/**
+ * Fetch today's trending papers from HuggingFace, filter to RL / World Model /
+ * Agentic RL topics, and return up to `limit` papers preserving HF's ranking.
+ */
 export async function fetchHuggingfacePapers(
   sourceId: string,
-  limit = 10,
+  limit = 20,
 ): Promise<RawArticle[]> {
   const resp = await fetch(HF_PAPERS_URL, {
     headers: { "User-Agent": "DailyBrief/1.0" },
@@ -37,7 +58,14 @@ export async function fetchHuggingfacePapers(
   }
   const papers = (await resp.json()) as HfPaperEntry[];
 
-  return papers.slice(0, limit).map((p) => {
+  const filtered = papers
+    .filter((p) => {
+      const detail = p.paper;
+      return matchesTopic(p.title, p.summary ?? detail?.summary ?? "");
+    })
+    .slice(0, limit);
+
+  return filtered.map((p) => {
     const detail = p.paper;
     const authors =
       detail?.authors

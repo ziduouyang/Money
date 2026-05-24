@@ -203,7 +203,7 @@ const SOURCE_DISPLAY_LIMITS: Record<string, number> = {
   "tech:github-trending": 20,
   "tech:cn-community": 10,
   "tech:x-viral": 20,
-  "tech:papers": 10,
+  "tech:papers": 20,
 };
 
 /**
