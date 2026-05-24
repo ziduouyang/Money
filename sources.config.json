@@ -126,6 +126,20 @@
     ]
   },
   {
+    "id": "huggingface-papers",
+    "name": "HuggingFace Daily Papers",
+    "type": "api",
+    "url": "https://huggingface.co/api/papers",
+    "category": "tech",
+    "subcategory": "papers",
+    "enabled": true,
+    "locales": [
+      "zh",
+      "en"
+    ],
+    "notes": "HF trending daily papers"
+  },
+  {
     "id": "tldr-ai",
     "name": "TLDR AI",
     "type": "rss",

@@ -14,6 +14,7 @@ import {
   enrichFinanceNewsSummaries,
   enrichGithubTrendingSummaries,
   enrichXViralSummaries,
+  enrichPapersSummaries,
 } from "../lib/ai/enrich";
 import {
   groupRaw,
@@ -114,6 +115,27 @@ async function enrichXViral(articles: ArticleInput[]): Promise<void> {
   }
   console.log(
     `[daily] enrichment done in ${((Date.now() - t0) / 1000).toFixed(1)}s, matched ${summaries.size}/${xPosts.length}`,
+  );
+}
+
+/**
+ * HF Daily Papers enrichment. Single source (huggingface-papers) —
+ * HF's trending rank is preserved via PRESERVE_FETCH_ORDER_SOURCES.
+ */
+async function enrichPapers(articles: ArticleInput[]): Promise<void> {
+  const papers = articles.filter((a) => a.sourceId === "huggingface-papers");
+  if (papers.length === 0) return;
+  console.log(
+    [daily] enriching  HF papers with  summaries…,
+  );
+  const t0 = Date.now();
+  const summaries = await enrichPapersSummaries(papers);
+  for (const a of papers) {
+    const s = summaries.get(a.url);
+    if (s) a.summary = s;
+  }
+  console.log(
+    [daily] enrichment done in s, matched /,
   );
 }
 
@@ -226,6 +248,7 @@ async function main() {
   await enrichPolitics(articles);
   await enrichAiNews(articles);
   await enrichXViral(articles);
+  await enrichPapers(articles);
 
   // Trading signals: Yahoo fetch + indicators + commentary. Non-fatal —
   // if it errors, we still ship the news digest.

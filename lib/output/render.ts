@@ -1,4 +1,4 @@
-import type {
+﻿import type {
   ArticleInput,
   BriefItem,
   DailyReport,
@@ -33,6 +33,7 @@ const TEXTS_ZH = {
   subAiNews: "AI 媒体",
   subXViral: "X 推文",
   subBlogWeekly: "博客周刊",
+  subPapers: "每日论文",
   subCnCommunity: "中文社区",
   subOverseasCommunity: "海外社区",
   subFinanceNews: "财经新闻",
@@ -81,6 +82,7 @@ const TEXTS_EN: typeof TEXTS_ZH = {
   subAiNews: "AI Media",
   subXViral: "X Viral",
   subBlogWeekly: "Blog Weekly",
+  subPapers: "Daily Papers",
   subCnCommunity: "Chinese Community",
   subOverseasCommunity: "Overseas Community",
   subFinanceNews: "Finance News",
@@ -169,12 +171,12 @@ const SUBCATEGORY_ORDER: Partial<Record<Category, string[]>> = {
   // Locale filtering at registry level decides which actually appears:
   // zh mode keeps cn-community (V2EX / LinuxDo); en mode keeps
   // overseas-community (Hacker News / r/stocks).
-  tech: ["github-trending", "x-viral", "ai-news", "cn-community", "overseas-community"],
+  tech: ["github-trending", "x-viral", "ai-news", "papers", "cn-community", "overseas-community"],
   finance: ["news"],
   politics: ["world"],
 };
 
-const TECH_MAIN_SUBS = new Set(["github-trending", "x-viral", "ai-news"]);
+const TECH_MAIN_SUBS = new Set(["github-trending", "x-viral", "ai-news", "papers"]);
 const TECH_COMMUNITY_SUBS = new Set(["cn-community", "overseas-community"]);
 
 const SUBCATEGORY_LABELS: Record<string, string> = {
@@ -183,6 +185,7 @@ const SUBCATEGORY_LABELS: Record<string, string> = {
   "overseas-community": STR.subOverseasCommunity,
   "ai-news": STR.subAiNews,
   "x-viral": STR.subXViral,
+  papers: STR.subPapers,
   "blog-weekly": STR.subBlogWeekly,
   news: STR.subFinanceNews,
   world: STR.subWorld,
@@ -200,6 +203,7 @@ const SOURCE_DISPLAY_LIMITS: Record<string, number> = {
   "tech:github-trending": 20,
   "tech:cn-community": 10,
   "tech:x-viral": 20,
+  "tech:papers": 10,
 };
 
 /**
@@ -207,7 +211,7 @@ const SOURCE_DISPLAY_LIMITS: Record<string, number> = {
  * algorithm we want to preserve. groupRaw skips its default date-desc sort
  * for these so the final render reflects the source's own ranking.
  */
-const PRESERVE_FETCH_ORDER_SOURCES = new Set(["attentionvc-ai"]);
+const PRESERVE_FETCH_ORDER_SOURCES = new Set(["attentionvc-ai", "huggingface-papers"]);
 
 function displayLimitFor(
   category: Category,
