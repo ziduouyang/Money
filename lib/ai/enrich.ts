@@ -157,7 +157,7 @@ Output STRICTLY a JSON object, no markdown wrapping:
 
 **Quote rule (important!)**: For any quotation INSIDE a summary string, use single quotes ' or curly quotes '" — **never** a raw double quote, which breaks JSON parsing.`;
 
-const PAPERS_SYSTEM_PROMPT_ZH = 你是一名AI研究编辑，负责为当日HuggingFace热门论文撰写中文摘要。
+const PAPERS_SYSTEM_PROMPT_ZH = `你是一名AI研究编辑，负责为当日HuggingFace热门论文撰写中文摘要。
 
 输入：每篇论文有 url、title、excerpt（摘要片段）和 meta（含点赞数和作者）。
 
@@ -181,9 +181,9 @@ const PAPERS_SYSTEM_PROMPT_ZH = 你是一名AI研究编辑，负责为当日Hugg
   ]
 }
 
-**引号规则（重要！）**：summary 内的引用一律用中文全角引号「」或“”，**绝不**用英文双引号 " —— 否则会导致 JSON 解析失败。;
+**引号规则（重要！）**：summary 内的引用一律用中文全角引号「」或“”，**绝不**用英文双引号 " —— 否则会导致 JSON 解析失败。`;
 
-const PAPERS_SYSTEM_PROMPT_EN = You are an AI research editor writing English summaries for today's trending HuggingFace papers.
+const PAPERS_SYSTEM_PROMPT_EN = `You are an AI research editor writing English summaries for today's trending HuggingFace papers.
 
 Input: each paper has url, title, excerpt (abstract snippet), and meta (upvotes + authors).
 
@@ -206,7 +206,7 @@ Output STRICTLY a JSON object, no markdown wrapping:
   ]
 }
 
-**Quote rule (important!)**: For any quotation INSIDE a summary string, use single quotes ' or curly quotes '" — **never** a raw double quote, which breaks JSON parsing.;
+**Quote rule (important!)**: For any quotation INSIDE a summary string, use single quotes ' or curly quotes '" — **never** a raw double quote, which breaks JSON parsing.`;
 
 // Pick the right localized prompt set at module init. Each enricher reaches
 // in via PROMPTS.<key> so the call sites stay locale-agnostic.
