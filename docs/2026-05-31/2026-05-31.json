@@ -1,143 +1,129 @@
 {
-  "hero_headline": "Anthropic 65B融资 Opus 4.8发布",
-  "daily_overview": "科技领域，Anthropic以9650亿美元估值完成650亿美元H轮融资，并发布Opus 4.8模型与Dynamic Workflows；与此同时，微软开源文件转Markdown工具MarkItDown，波士顿儿童医院利用AI辅助诊断罕见病。财经方面，中国西南煤矿发生坍塌致5人死亡，引发安全生产关注；法拉利首款电动车Luce遭遇批评；沙特承包商启动8亿美元IPO。时政方面，哥伦比亚举行总统选举，左翼现任总统与极右翼候选人角逐；法国巴黎等地因PSG欧冠胜利爆发球迷骚乱，警方逮捕超400人；台湾强烈回应中国驱逐《纽约时报》记者事件。",
+  "hero_headline": "Anthropic以$965B估值完成$65B融资",
+  "daily_overview": "科技领域，Anthropic完成650亿美元H轮融资，估值达9650亿美元，同时推出Claude Opus 4.8及动态工作流；波士顿儿童医院利用AI诊断40余种罕见病。财经方面，印尼推进大宗商品出口中枢管控，扰乱全球供应链；新加坡凯德在华裁员10%折射房地产困局；Sandoz警告中国廉价仿制药危及欧洲抗生素自给。时政方面，美伊协议再生变数，特朗普要求修改草案；中日在新加坡防务论坛上激烈交锋；以色列军队越过利塔尼河占领城堡，黎以局势升温。全球市场在AI融资狂欢与地缘风险中寻找平衡。",
   "tech_briefs": [
     {
-      "title": "Anthropic完成650亿美元H轮融资估值9650亿",
+      "title": "Anthropic获$65B融资 推Opus 4.8",
       "url": "https://news.smol.ai/issues/26-05-28-anthropic-series-h/",
       "source": "Smol AI News",
-      "summary": "Anthropic宣布650亿美元H轮融资，由Altimeter、Dragoneer等领投，估值跃升至9650亿美元。同时发布Opus 4.8模型及Dynamic Workflows工具。（多家报道）",
-      "importance": 10
+      "summary": "Anthropic以9650亿美元估值完成650亿美元H轮融资，同时推出Claude Opus 4.8模型和动态工作流。（多家报道）",
+      "importance": 9
     },
     {
-      "title": "波士顿儿童医院用AI诊断超40例罕见病",
+      "title": "波士顿儿童医院用AI诊断40余种罕见病",
       "url": "https://openai.com/index/boston-childrens-hospital",
       "source": "OpenAI News",
-      "summary": "波士顿儿童医院利用OpenAI技术改善患者护理、减轻运营负担，成功辅助诊断40余例罕见病，提升诊疗效率。",
+      "summary": "波士顿儿童医院借助OpenAI技术改善患者护理并诊断超过40例罕见病，减轻运营负担。",
       "importance": 8
     },
     {
-      "title": "微软开源MarkItDown：文件转Markdown工具",
+      "title": "微软开源Markitdown：文件转Markdown工具",
       "url": "https://github.com/microsoft/markitdown",
       "source": "GitHub Trending",
-      "summary": "微软发布Python工具MarkItDown，支持将Office文档、PDF等各类文件转换为Markdown格式，便于文本处理与AI应用。",
-      "importance": 7
-    },
-    {
-      "title": "Google DeepMind在亚太启动环境风险加速器",
-      "url": "https://deepmind.google/blog/were-launching-the-google-deepmind-accelerator-program-in-asia-pacific-to-tackle-environmental-risks/",
-      "source": "DeepMind Blog",
-      "summary": "DeepMind宣布在亚太地区启动加速器项目，利用AI应对环境风险，支持本地初创企业与研究团队。",
+      "summary": "微软推出Python工具Markitdown，可将各类文档和Office文件转换为Markdown格式，提升内容迁移效率。",
       "importance": 6
     },
     {
-      "title": "NeUROK：生成式4D神经对象运动学模型",
-      "url": "https://huggingface.co/papers/2605.30347",
-      "source": "HuggingFace Daily Papers",
-      "summary": "研究团队提出NeUROK框架，基于Transformer生成带真实动态的4D对象，突破静态3D重建局限，实现时序运动模拟。",
+      "title": "DeepMind在亚太启动环境风险加速器",
+      "url": "https://deepmind.google/blog/were-launching-the-google-deepmind-accelerator-program-in-asia-pacific-to-tackle-environmental-risks/",
+      "source": "DeepMind Blog",
+      "summary": "Google DeepMind宣布在亚太地区启动加速器项目，资助利用AI应对环境风险的初创企业。",
       "importance": 5
     }
   ],
   "finance_briefs": [
     {
-      "title": "中国西南煤矿坍塌致5人死亡",
-      "url": "https://www.bloomberg.com/news/articles/2026-05-31/china-mine-collapse-kills-five-days-after-deadly-shanxi-blast",
+      "title": "印尼推进大宗商品出口中枢计划",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-31/indonesia-advances-export-control-plan-despite-uncertainty",
       "source": "Bloomberg Markets",
-      "summary": "中国西南部一矿场发生坍塌事故，5名工人遇难。此前山西煤矿瓦斯爆炸已致多人死亡，安全监管压力加大。",
-      "importance": 9
-    },
-    {
-      "title": "法拉利首款电动车Luce遭批评背离传统",
-      "url": "https://www.bbc.com/news/articles/c1l2y7j7454o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Business",
-      "summary": "法拉利发布首款电动车Luce，引发粉丝强烈批评，认为其背离品牌燃油跑车基因。部分投资者担忧市场接受度。",
-      "importance": 8
-    },
-    {
-      "title": "Sandoz警告中国廉价药品威胁欧洲抗生素供应",
-      "url": "https://www.ft.com/content/6b74ddb9-319b-4293-a9d7-0effb17a4485",
-      "source": "Financial Times",
-      "summary": "仿制药巨头Sandoz CEO表示，中国低价抗生素大量涌入威胁欧洲本土产能，呼吁加强保护措施以保障关键药物供应。",
+      "summary": "印尼政府自6月1日起推行大宗商品出口中枢管理，加剧自然资源行业监管不确定性。",
       "importance": 7
     },
     {
-      "title": "沙特承包商Mutlaq Al-Ghowairi启动8亿美元IPO",
-      "url": "https://www.bloomberg.com/news/articles/2026-05-31/saudi-contractor-s-owners-seek-up-to-800-million-in-riyadh-ipo",
+      "title": "新加坡凯德集团在华裁员10%",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-31/singapore-s-capitaland-sheds-10-of-china-staff-amid-downturn",
       "source": "Bloomberg Markets",
-      "summary": "沙特Mutlaq Al-Ghowairi Contracting Co.股东寻求在利雅得IPO中筹集约8亿美元，或成为海湾地区今年最大上市交易。",
+      "summary": "凯德投资称在华员工去年减少约365人，降幅达10%，反映亚洲最大经济体的房地产危机持续。",
+      "importance": 7
+    },
+    {
+      "title": "Sandoz称中国仿制药威胁欧洲抗生素供应",
+      "url": "https://www.ft.com/content/6b74ddb9-319b-4293-a9d7-0effb17a4485",
+      "source": "Financial Times",
+      "summary": "制药公司Sandoz CEO警告，廉价中国抗生素进口可能削弱欧洲关键药品生产能力。",
       "importance": 6
     },
     {
-      "title": "非洲开发银行拨款6.5亿美元援建乌干达铁路",
-      "url": "https://www.bloomberg.com/news/articles/2026-05-31/african-development-bank-allots-650-million-for-uganda-railroad",
-      "source": "Bloomberg Markets",
-      "summary": "非洲开发银行初步批准6.5亿美元贷款，用于建设连接乌干达首都坎帕拉与肯尼亚边境马拉巴的铁路线路。",
-      "importance": 5
+      "title": "中国悄然放松农民工户籍限制",
+      "url": "https://www.economist.com/finance-and-economics/2026/05/28/without-fanfare-china-is-making-rural-migrants-lives-easier",
+      "source": "The Economist Finance",
+      "summary": "中国正逐步放宽户籍制度，改善农村迁入城市务工人员的生活条件。",
+      "importance": 6
     }
   ],
   "politics_briefs": [
     {
-      "title": "哥伦比亚总统选举考验美哥关系走向",
-      "url": "https://www.bbc.com/news/articles/c2027g423glo?at_media=RSS&at_campaign=rss",
-      "source": "BBC World",
-      "summary": "哥伦比亚举行总统选举，左翼现任总统古斯塔沃·佩特罗与极右翼及传统保守派候选人竞争，结果将影响与美国的关系。（多家报道）",
+      "title": "美伊协议再生变数 特朗普要求修改草案",
+      "url": "https://www.dw.com/zh/美伊协议再生变数？特朗普要修改草案/a-77362950?maca=chi-rss-chi-all-1127-rdf",
+      "source": "DW 中文",
+      "summary": "美国总统特朗普要求修改伊朗协议草案，此前美伊谈判代表已接近共识，谈判可能再次延长。（多家报道）",
       "importance": 9
     },
     {
-      "title": "法国警方逮捕超400人因PSG欧冠庆祝骚乱",
-      "url": "https://www.theguardian.com/world/2026/may/30/paris-police-arrest-paris-saint-germain-fans-celebrate-champions-league-win-over-arsenal",
-      "source": "The Guardian",
-      "summary": "PSG点球战胜阿森纳卫冕欧冠后，巴黎等15座城市爆发球迷骚乱，法国警方逮捕超400人，其中巴黎近300人被捕。（多家报道）",
+      "title": "日本驳斥中国「新军国主义」指控",
+      "url": "https://www.dw.com/zh/日本驳斥中国-新军国主义-指控-反指北京正迅速军事扩张/a-77362191?maca=chi-rss-chi-all-1127-rdf",
+      "source": "DW 中文",
+      "summary": "日本防卫大臣在新加坡防务论坛上驳斥中国指控，并反批中国快速扩军且缺乏透明度。中日关系紧张。",
       "importance": 8
     },
     {
-      "title": "台湾谴责中国驱逐纽约时报记者称不会沉默",
-      "url": "https://www.bloomberg.com/news/articles/2026-05-31/taiwan-vows-not-to-be-silenced-after-china-expels-nyt-reporter",
-      "source": "Bloomberg Markets",
-      "summary": "台湾当局谴责中国因《纽约时报》采访台湾领导人而驱逐其记者，表示不会因压力沉默，要求维护新闻自由。",
-      "importance": 7
+      "title": "以色列军队越过利塔尼河占领城堡",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/5/31/israeli-forces-cross-lebanons-litani-river-and-seize-12th-century-castle?traffic_source=rss",
+      "source": "Al Jazeera",
+      "summary": "以色列军队越过黎巴嫩利塔尼河向北推进，占领中世纪的博福特城堡，违反现有停火协议。",
+      "importance": 8
     }
   ],
-  "editor_note": "AI资本狂潮与地缘风险交织，全球市场在技术跃进与安全困境中寻找平衡。",
+  "editor_note": "AI融资潮创新高，但地缘风险同步升温。市场需警惕大宗商品新规及中东乱局对通胀的传导，技术应用也需直面伦理与安全挑战。",
   "keywords": [
-    "AI融资",
     "Anthropic",
     "Opus 4.8",
-    "煤矿事故",
-    "法拉利Luce",
-    "哥伦比亚大选",
-    "法国骚乱",
-    "台湾抗议"
+    "美伊协议",
+    "印尼出口管制",
+    "中日防务",
+    "以色列黎巴嫩",
+    "AI诊断",
+    "凯德裁员"
   ],
   "trading": {
-    "market_overview": "当前市场技术面呈现显著分化。美股方面，SPY、QQQ 等主要 ETF 延续多头排列，价格均高于 20/50/200 日均线，且 RSI 分别达 74.1 和 77.2，进入超买区域，短期动能强劲但回调风险上升。加密市场整体偏弱，比特币、以太坊及 Solana 均运行于各均线下方，呈现空头排列，加密恐慌贪婪指数仅 28（恐慌），总市值 2.58T 美元（24 小时微涨 0.72%），但 BTC 主导率 57.3% 显示资金避险倾向。中概股承压明显，拼多多、京东等股价跌破多条均线，RSI 处于 32-38 低位，MACD 维持死叉，技术面空头主导。商品外汇中，黄金期货价格与 SMA20 基本持平，RSI 49.1 中性；WTI 原油跌破短期均线且 RSI 37.9 偏弱；美元指数在均线上方运行，RSI 51.3，MACD 金叉，技术面偏强。整体而言，美股高位超买需警惕回调，加密与中概弱势延续，商品外汇分化，美元相对坚挺。",
+    "market_overview": "当前市场呈现明显分化：美股大盘（SPY、QQQ）延续强势，价格接近52周高点，RSI处于74以上的超买区域，均线多头排列，但超买信号提示短期回调风险。加密市场则持续承压，恐慌贪婪指数仅28（恐慌），总市值2.58T，BTC主导率57.3%；BTC、ETH均呈空头排列，RSI低于40，显示卖压主导。中概股同样弱势，阿里巴巴、拼多多等多数标的股价低于所有均线，RSI在30-40区间，空头排列明确，部分已接近52周低点。商品外汇方面，黄金期货围绕均线震荡，RSI中性；WTI原油连续下跌，RSI 37.9，但价格仍高于200日线；美元指数偏强，接近52周高且均线多头排列。整体来看，权益类资产（美股）与避险/商品资产走势背离，加密与中概整体疲弱，技术面信号偏空。",
     "watchlist": [
       {
         "symbol": "SPY",
         "display_name": "S&P 500 ETF",
         "stance": "偏上行",
-        "rationale": "SPY 当前价格 756.48 高于 SMA20(739.34)、SMA50(703.65) 及 SMA200(681.17)，呈多头排列；RSI14 达 74.1 进入超买区；MACD 柱状图 12.6983 略低于信号线 12.8734，但仍为正值；近 1 日上涨 0.25%，5 日涨 1.85%，距离 52 周高点仅差 0.21%。技术状态偏上行，但超买信号提示短期回调压力。"
+        "rationale": "当前价格756.48，仅低于52周高0.21%，均线系统多头排列（SMA20 739.34、SMA50 703.65、SMA200 681.17），RSI 74.1处于超买区，MACD红柱略有缩短，但整体上行趋势未被破坏。需留意超买后可能的短期震荡。"
       },
       {
-        "symbol": "PDD",
-        "display_name": "拼多多 (PDD)",
+        "symbol": "ETH-USD",
+        "display_name": "Ethereum",
         "stance": "偏下行",
-        "rationale": "PDD 当前价格 84.44 低于所有均线（SMA20 95.79、SMA50 98.42、SMA200 113.23），空头排列明确；RSI14 仅 32.3，接近超卖区域；MACD 柱状图 -3.2037 低于信号线 -1.7986，维持死叉；近 5 日下跌 13.65%，距 52 周高点跌幅 39.43%。技术面持续承压，动量偏下行。"
+        "rationale": "价格2020.14，RSI 33.1接近超卖，所有短期均线均低于长期均线（空头排列），价格低于SMA20 2119.14、SMA50 2241.92、SMA200 2497.49，且距52周高-59.22%，加密恐慌指数28表明市场情绪恐慌，技术面持续偏弱。"
       },
       {
-        "symbol": "NVDA",
-        "display_name": "Nvidia",
-        "stance": "中性",
-        "rationale": "NVDA 当前价格 211.14 略低于 SMA20(215.46) 但高于 SMA50(199.35) 和 SMA200(187.65)，均线仍保持多头排列；RSI14 49.4 处于中性区间，无超买超卖信号；MACD 柱状图 3.8087 低于信号线 5.9741，呈死叉；近 1 日下跌 1.45%，5 日下跌 3.81%。多空信号交织，方向感模糊，技术中性。"
+        "symbol": "BABA",
+        "display_name": "阿里巴巴 (BABA)",
+        "stance": "偏下行",
+        "rationale": "当前124.22，RSI 37.7，价格低于所有均线（SMA20 134.18、SMA50 131.07、SMA200 149.62），MACD为负值且信号线高于MACD（死叉形态），空头排列明确，近5日下跌5.51%，短期承压明显。"
       },
       {
-        "symbol": "GC=F",
-        "display_name": "黄金期货",
+        "symbol": "MSFT",
+        "display_name": "Microsoft",
         "stance": "中性",
-        "rationale": "黄金期货当前价格 4593 与 SMA20(4591.31) 基本持平，略低于 SMA50(4630.92) 但高于 SMA200(4371.01)；RSI14 49.1 中性；MACD 柱状图 -48.9 低于信号线 -46.67，维持死叉；近 1 日上涨 2.08%，5 日仅涨 1.17%，价格处于均线粘合区，未形成明确方向，技术中性。"
+        "rationale": "价格450.24，RSI 69.6处于正常偏强区域，MACD金叉（5.80 > 4.12），但股价低于200日均线（458.46），且单日涨幅5.45%使波动放大。均线系统缺乏一致性方向，短期多空分歧较大。"
       }
     ],
-    "risk_caveat": "过去走势不代表未来表现，本报告仅基于当前公开行情数据与常见技术指标进行客观解读，不构成任何投资建议。任何交易决策请结合自身风险承受能力与全面基本面分析。仅供技术指标解读参考。",
+    "risk_caveat": "过去走势不代表未来表现，本报告仅基于公开行情数据的技术指标进行客观解读，不构成投资建议。仅供技术指标解读参考，请注意风险。",
     "tickers": [
       {
         "symbol": "SPY",
@@ -393,18 +379,18 @@
         "group": "crypto",
         "currency": "USD",
         "exchangeName": "CCC",
-        "currentPrice": 73848.37,
-        "pct1Day": 0.1268175317741284,
-        "pct5Day": -2.6077747763323322,
-        "pct52WeekHigh": -41.482171637014744,
-        "pct52WeekLow": 22.92858883204825,
-        "sma20": 76761.98671875,
-        "sma50": 77236.6265625,
-        "sma200": 79523.93470703125,
-        "rsi14": 37.822159041316155,
-        "macd": -1090.6050517249096,
-        "macdSignal": -583.3558922503477,
-        "macdHistogram": -507.2491594745619,
+        "currentPrice": 73836.83,
+        "pct1Day": 0.11117110011536556,
+        "pct5Day": -2.622993883796458,
+        "pct52WeekHigh": -41.49131599239196,
+        "pct52WeekLow": 22.90937925551838,
+        "sma20": 76761.409765625,
+        "sma50": 77236.39578125,
+        "sma200": 79523.87701171875,
+        "rsi14": 37.758322143330794,
+        "macd": -1091.5255467391544,
+        "macdSignal": -583.5399912531966,
+        "macdHistogram": -507.9855554859578,
         "trend": "bearish",
         "rsiState": "normal",
         "signals": [
@@ -420,18 +406,18 @@
         "group": "crypto",
         "currency": "USD",
         "exchangeName": "CCC",
-        "currentPrice": 2024.3,
-        "pct1Day": 0.2397547977133097,
-        "pct5Day": -2.248254145281287,
-        "pct52WeekHigh": -59.1358678394657,
-        "pct52WeekLow": 15.765065370976336,
-        "sma20": 2119.352673339844,
-        "sma50": 2242.0037646484375,
-        "sma200": 2497.5117797851562,
-        "rsi14": 33.813781096485116,
-        "macd": -65.40914026858809,
-        "macdSignal": -57.1442908066917,
-        "macdHistogram": -8.26484946189639,
+        "currentPrice": 2020.14,
+        "pct1Day": 0.033758957196354286,
+        "pct5Day": -2.449137049374364,
+        "pct52WeekHigh": -59.21984491291718,
+        "pct52WeekLow": 15.527164530219903,
+        "sma20": 2119.144671630859,
+        "sma50": 2241.920563964844,
+        "sma200": 2497.490979614258,
+        "rsi14": 33.07152575474494,
+        "macd": -65.74099484702447,
+        "macdSignal": -57.21066172237897,
+        "macdHistogram": -8.530333124645495,
         "trend": "bearish",
         "rsiState": "normal",
         "signals": [
@@ -447,18 +433,18 @@
         "group": "crypto",
         "currency": "USD",
         "exchangeName": "CCC",
-        "currentPrice": 82.7,
-        "pct1Day": 0.18499138464786463,
-        "pct5Day": -1.0605984819802206,
-        "pct52WeekHigh": -67.33934968577454,
-        "pct52WeekLow": 20.392792038411553,
-        "sma20": 85.82387771606446,
-        "sma50": 86.36852996826173,
-        "sma200": 104.44620018005371,
-        "rsi14": 41.136389054678894,
-        "macd": -1.4329599866145912,
-        "macdSignal": -0.9561006590452108,
-        "macdHistogram": -0.47685932756938043,
+        "currentPrice": 82.68,
+        "pct1Day": 0.16076284985109848,
+        "pct5Day": -1.0845257858539812,
+        "pct52WeekHigh": -67.34724827109841,
+        "pct52WeekLow": 20.363676490155594,
+        "sma20": 85.82287788391113,
+        "sma50": 86.36813003540038,
+        "sma200": 104.44610019683837,
+        "rsi14": 41.06481404310769,
+        "macd": -1.4345551604204445,
+        "macdSignal": -0.9564196938063815,
+        "macdHistogram": -0.47813546661406303,
         "trend": "bearish",
         "rsiState": "normal",
         "signals": [
@@ -773,13 +759,13 @@
       "timestamp": "2026-05-31T00:00:00.000Z"
     },
     "crypto_global": {
-      "totalMarketCapUsd": 2581926973677.69,
-      "total24hVolumeUsd": 53619018435.17335,
-      "marketCapChangePct24h": 0.7212261171856479,
-      "btcDominance": 57.28103101494487,
-      "ethDominance": 9.455179022743234,
-      "activeCryptocurrencies": 17401
+      "totalMarketCapUsd": 2582233626536.8887,
+      "total24hVolumeUsd": 54496663569.491776,
+      "marketCapChangePct24h": 0.7178647330715879,
+      "btcDominance": 57.290383502816745,
+      "ethDominance": 9.44042095665188,
+      "activeCryptocurrencies": 17402
     },
-    "generated_at": "2026-05-31T09:18:44.933Z"
+    "generated_at": "2026-05-31T11:47:02.399Z"
   }
 }
