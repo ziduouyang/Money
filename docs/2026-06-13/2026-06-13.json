@@ -1,143 +1,142 @@
 {
-  "hero_headline": "SpaceX上市马斯克成世界首位万亿富翁",
-  "daily_overview": "今日全球头条当属SpaceX上市与马斯克晋身万亿富豪，资本市场为之沸腾。科技界，Anthropic发布Claude Fable 5模型却限制访问，引发安全讨论；DeepMind斥资千万美元研究多智能体交互风险。财经领域，中国严厉驳斥美国「军事公司」标签，英国经济受伊朗战事拖累收缩，世界石油储备告急。时政方面，美军成功击毙委内瑞拉毒枭头目，伊朗称停战协议接近达成、霍尔木兹海峡有望重开，瑞士则准备公投限制人口。",
+  "hero_headline": "马斯克成全球首位万亿富翁 SpaceX上市创纪录",
+  "daily_overview": "科技领域，Anthropic 发布 Claude Fable 5 和 Mythos 5 模型，强化安全限制；Google DeepMind 拨款千万美元研究多智能体交互风险。财经方面，SpaceX 上市推马斯克成全球首位万亿富翁，全球战略石油储备告急，英国经济受伊朗冲突影响萎缩。时政上，美伊停火协议接近达成，美军击落伊朗无人机；瑞士公投是否将人口上限设为1000万。多线交织，市场与地缘风险并存。",
   "tech_briefs": [
     {
-      "title": "Anthropic发布Claude Fable 5模型并限制访问",
+      "title": "Anthropic 发布 Claude Fable 5 与受限版 Mythos 5",
       "url": "https://news.smol.ai/issues/26-06-09-anthropic-claude-fable-5/",
       "source": "Smol AI News",
-      "summary": "Anthropic推出Claude Fable 5通用版及Claude Mythos 5受限版，同时对敏感查询回退至旧模型，未完全公开原因（多家报道）。",
+      "summary": "Anthropic 发布两款新模型：通用可用的 Claude Fable 5 及受限的 Claude Mythos 5，后者对敏感查询回退至 Claude Opus 4.8。",
       "importance": 9
     },
     {
-      "title": "DeepMind注资千万推动多智能体安全研究",
-      "url": "https://deepmind.google/blog/investing-in-multi-agent-ai-safety-research/",
-      "source": "DeepMind Blog",
-      "summary": "Google DeepMind与合作伙伴宣布1000万美元资助计划，研究百万AI智能体交互潜在风险，公司同步表达担忧（多家报道）。",
+      "title": "DeepMind 投入千万美元研究多智能体安全",
+      "url": "https://www.technologyreview.com/2026/06/11/1138794/google-deepmind-is-worried-about-what-happens-when-millions-of-agents-start-to-interact/",
+      "source": "MIT Tech Review AI / DeepMind Blog",
+      "summary": "Google DeepMind 出资 1000 万美元资助多智能体交互安全研究，担忧数百万代理在线互动的潜在风险。（多家报道）",
       "importance": 8
     },
     {
-      "title": "OpenAI推出AI工作技能实用课程",
+      "title": "OpenAI 推出应用 AI 的学院课程",
       "url": "https://openai.com/index/academy-courses-applying-ai-at-work",
       "source": "OpenAI News",
-      "summary": "OpenAI发布三门学院课程，帮助用户构建实用AI技能、创建可重复工作流、在日常工作中应用智能体。",
+      "summary": "OpenAI 发布三门新课程，帮助用户构建实用 AI 技能、创建可重复工作流并在日常工作中应用智能体。",
       "importance": 7
     },
     {
-      "title": "DeepMind发布DiffusionGemma实现4倍生成加速",
+      "title": "DeepMind 发布 DiffusionGemma 文本生成提速4倍",
       "url": "https://deepmind.google/blog/diffusiongemma-4x-faster-text-generation/",
       "source": "DeepMind Blog",
-      "summary": "Google DeepMind发布DiffusionGemma，采用扩散模型架构，实现文本生成速度4倍提升，大幅降低延迟。",
-      "importance": 7
-    },
-    {
-      "title": "开源项目Music Assistant：统一音乐管理",
-      "url": "https://github.com/music-assistant/server",
-      "source": "GitHub Trending",
-      "summary": "Music Assistant是免费开源媒体库管理器，连接主流流媒体服务和智能音箱，让用户在一处集中管理所有音乐资源，解决多平台碎片化问题。",
-      "importance": 5
+      "summary": "Google DeepMind 推出 DiffusionGemma，采用扩散模型架构，文本生成速度提升 4 倍，可广泛应用于实时场景。",
+      "importance": 8
     }
   ],
   "finance_briefs": [
     {
-      "title": "SpaceX上市马斯克成首位万亿富翁",
-      "url": "https://www.bloomberg.com/news/features/2026-06-13/inside-the-spacex-ipo-why-elon-musk-raced-to-take-spacex-public",
-      "source": "Bloomberg Markets",
-      "summary": "SpaceX在纳斯达克上市，市值2.2万亿美元，IPO当日涨幅19%；马斯克净资产达1110亿美元，成为世界首位万亿富翁（多家报道）。",
+      "title": "SpaceX 上市助马斯克成全球首位万亿富翁",
+      "url": "https://www.bbc.com/news/articles/c4gypy3wwl7o",
+      "source": "BBC Business",
+      "summary": "马斯克净资产达1.11万亿美元，SpaceX 纳斯达克上市估值2.2万亿美元，创历史纪录。",
       "importance": 10
     },
     {
-      "title": "中国斥美将企业列为「军事公司」",
-      "url": "https://www.bloomberg.com/news/articles/2026-06-13/china-rebukes-us-over-military-labeling-of-its-top-firms",
-      "source": "Bloomberg Markets",
-      "summary": "中国商务部坚决反对美国将多家企业列为「军事公司」，指责美方以国家安全为名遏制中国发展。",
+      "title": "英国经济4月因伊朗冲突萎缩",
+      "url": "https://www.bbc.com/news/articles/c77y47248k4o",
+      "source": "BBC Business",
+      "summary": "英国经济4月环比微降0.1%，伊朗战争影响开始显现，制造业与服务业均受拖累。",
       "importance": 8
     },
     {
-      "title": "世界战略石油储备快速告急",
+      "title": "全球战略石油储备快速消耗",
       "url": "https://www.economist.com/finance-and-economics/2026/06/11/the-worlds-strategic-oil-reserves-are-running-out-fast",
       "source": "The Economist Finance",
-      "summary": "报告指出全球战略石油储备正在快速消耗，无法长期缓冲能源价格冲击。",
+      "summary": "主要经济体动用战略储备应对油价波动，储备水平降至数十年来最低，无力长期抑制能源紧张。",
+      "importance": 8
+    },
+    {
+      "title": "韩国媒体巨头JTBC贷款违约降级",
+      "url": "https://www.bloomberg.com/news/articles/2026-06-13/korean-media-giant-joongang-s-jtbc-defaults-downgraded-to-junk",
+      "source": "Bloomberg Markets",
+      "summary": "JTBC因证券化贷款违约被当地评级机构下调至垃圾级，引发连锁降级反应，凸显韩国媒体行业财务压力。",
       "importance": 7
     },
     {
-      "title": "英国经济受伊朗战争影响收缩",
-      "url": "https://www.bbc.com/news/articles/c77y47248k4o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Business",
-      "summary": "英国4月经济小幅收缩，官方数据显示伊朗战争开始对企业活动产生负面影响。",
-      "importance": 6
-    },
-    {
-      "title": "英国承诺新年前禁运俄柴油和航空燃料",
-      "url": "https://www.bbc.com/news/articles/ceqdl8xre7qo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Business",
-      "summary": "英国政府宣布对俄新制裁，将于2027年起禁止进口俄罗斯柴油和航空燃料。",
-      "importance": 6
+      "title": "AI 正彻底变革股市 科技公司资金需求模式转变",
+      "url": "https://www.ft.com/content/b31f1e09-5aae-4cad-af15-97adb15dba70",
+      "source": "Financial Times",
+      "summary": "大型科技公司不再单纯印钞，转而需要大量资金投入AI，市场对信心波动更为敏感。",
+      "importance": 7
     }
   ],
   "politics_briefs": [
     {
-      "title": "美军击毙委内瑞拉毒枭头目",
-      "url": "https://www.npr.org/2026/06/12/nx-s1-5856611/u-s-military-kill-leader-tren-de-aragua",
-      "source": "NPR World",
-      "summary": "特朗普宣布美军在委内瑞拉协助下消灭Tren de Aragua贩毒集团头目「Niño Guerrero」，系重大反毒行动（多家报道）。",
+      "title": "美伊停火协议接近达成 双方确认谈判收尾",
+      "url": "https://www.nytimes.com/live/2026/06/12/world/iran-war-trump-us-israel",
+      "source": "NYT World",
+      "summary": "美伊官员称停火协议细节即将谈妥，特朗普与伊朗外长均表示接近达成协议，但此前类似尝试曾破裂。",
       "importance": 9
     },
     {
-      "title": "伊朗称停战协议近完成 霍尔木兹海峡将重开",
-      "url": "https://www.bbc.com/news/articles/c39y02x98k8o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC World",
-      "summary": "伊朗表示结束敌对行动的协议即将完成，霍尔木兹海峡将重新开放，美国、伊朗及巴基斯坦参与调解。",
+      "title": "瑞士公投决定是否将人口上限设为1000万",
+      "url": "https://www.theguardian.com/world/2026/jun/13/swiss-wait-to-hear-result-of-ballot-on-capping-population-at-10-million",
+      "source": "The Guardian",
+      "summary": "瑞士就极右翼提出的2050年前将人口限制在1000万以内的提案举行全国公投，结果即将揭晓。",
       "importance": 8
     },
     {
-      "title": "瑞士将公投决定是否限制人口千万",
-      "url": "https://www.nytimes.com/2026/06/13/world/europe/switzerland-population-referendum-10-million.html",
-      "source": "NYT World",
-      "summary": "瑞士将举行公投，决定是否设定人口上限1000万以控制移民，可能影响经济增长。",
-      "importance": 5
+      "title": "特朗普称美军击毙委内瑞拉Tren de Aragua头目",
+      "url": "https://www.npr.org/2026/06/12/nx-s1-5856611/u-s-military-kill-leader-tren-de-aragua",
+      "source": "NPR World",
+      "summary": "美国总统特朗普宣布，美军在行动中击毙了跨国犯罪组织Tren de Aragua的头目Hector Guerrero Flores。",
+      "importance": 8
     }
   ],
-  "editor_note": "AI安全与资本市场双轮驱动今日议程。Anthropic模型限制引发开源与安全之争，SpaceX IPO重塑商业航天格局。地缘方面，伊朗和谈与美方反毒行动并行，全球经济面临多重压力。",
+  "editor_note": "AI模型争相发布但安全边界收窄；中东和平初现曙光，能源与经济压力并存，市场需谨慎应对。",
   "keywords": [
-    "SpaceX上市",
-    "人工智能安全",
+    "SpaceX IPO",
+    "万亿富翁",
+    "伊朗停火",
+    "瑞士人口公投",
+    "AI安全",
     "Claude Fable 5",
-    "中美贸易",
-    "伊朗和谈",
     "石油储备",
-    "瑞士公投",
-    "万亿富翁"
+    "英国经济萎缩"
   ],
   "trading": {
-    "market_overview": "今日市场整体技术面分化明显。美股方面，SPY和QQQ维持多头排列，RSI中性偏强，接近52周高点，显示上行趋势延续；但MSFT、META等大型科技股出现空头排列，RSI跌破40，动量偏弱。加密资产在恐慌贪婪指数仅13（极度恐慌）的背景下，BTC、ETH、SOL均处于空头排列，RSI低于34，短期承压。中概股普遍空头排列，BABA RSI进入超卖区（29.6），抛压显著。商品方面，黄金期货RSI 35.4，短期回调；原油期货同样弱势。宏观指标中，VIX大幅回落（-9.05%），波动率下降；10Y美债收益率小涨，美元指数接近52周高点，显示美元走强。整体看，美股内部分化，加密与中概偏弱，商品承压，宏观美元偏强。",
+    "market_overview": "当前加密市场恐慌贪婪指数为13（极度恐慌），加密总市值2.26T USD，BTC主导率56.4%、ETH 8.9%，市场情绪极度悲观。美股方面，SPY和QQQ维持多头排列（价格高于SMA50/200），但RSI中性、MACD柱为负，个股如MSFT、META出现空头排列，整体技术面中性偏弱。加密资产全面空头排列：BTC、ETH、SOL价格均低于所有均线，RSI靠近超卖（34~36），MACD负柱，弱势格局明确。中概股同样空头排列：BABA RSI 29.6超卖，PDD等下跌动能持续。商品外汇分化：黄金、原油价格跌破短期均线，RSI 35~38，MACD负柱，偏弱；美元指数DXY多头排列，RSI 58.7，接近52周高，偏强；10Y美债收益率中性。整体市场技术面分化，加密与商品弱势，美元偏强，美股震荡。",
     "watchlist": [
       {
         "symbol": "SPY",
-        "display_name": "S&P 500 ETF",
+        "display_name": "标普500 ETF (SPY)",
         "stance": "偏上行",
-        "rationale": "价格741.75距52周高仅-2.45%，且位于均线多头排列（sma20 745.07 > sma50 722.80 > sma200 686.30），MACD为正但信号线略高，RSI 52.9处于中性偏强区间，近5日涨0.57%，显示短期上行趋势延续。"
+        "rationale": "当前价格741.75高于SMA50 722.8和SMA200 686.3，多头排列；RSI 52.9中性，近1日涨0.54%，近5日涨0.57%；MACD柱-3.62为负但整体趋势偏多，且接近52周高（-2.45%），技术面偏上行。"
       },
       {
         "symbol": "BTC-USD",
         "display_name": "比特币 (BTC-USD)",
         "stance": "偏下行",
-        "rationale": "价格63588.29远低于sma20/50/200（68143/74419/77884），空头排列明确。MACD -3797.77且信号线-3570.24，绿柱持续扩大，RSI 33进入超卖临界，近1日微涨0.04%但近5日仅+0.55%，缺乏反弹动力，短期偏弱。"
+        "rationale": "价格63802低于所有均线（SMA20 67482.64、SMA50 74145.65、SMA200 77766.79），空头排列；RSI 34接近超卖，MACD负柱-3590.59；加密恐慌指数仅13（极度恐慌），近5日仅反弹1.13%，动能疲弱，技术面偏下行。"
       },
       {
         "symbol": "BABA",
         "display_name": "阿里巴巴 (BABA)",
         "stance": "偏下行",
-        "rationale": "价格112.82远低于sma20/50/200（125.81/130.33/149.57），空头排列。RSI 29.6进入超卖区，MACD -4.95且信号线-3.35，绿柱扩大。近5日跌6.81%，近52周高回撤41.44%，技术面极度弱势，存在超卖反弹可能但趋势仍偏下行。"
+        "rationale": "价格112.82远低于所有均线（SMA20 125.81、SMA50 130.33、SMA200 149.57），空头排列；RSI 29.6进入超卖区，MACD负柱-4.95；近5日下跌6.81%，跌幅显著，技术面偏下行。"
       },
       {
-        "symbol": "TSLA",
-        "display_name": "特斯拉 (TSLA)",
+        "symbol": "NVDA",
+        "display_name": "英伟达 (NVDA)",
         "stance": "中性",
-        "rationale": "价格406.43位于sma20 415.74与sma50 398.30之间，无明确方向。RSI 48.9接近中性50，MACD -2.17但信号线2.20，快慢线即将粘合。近1日涨1.82%，近5日涨3.95%，有一定买盘但未突破均线纠结区域，处于震荡格局。"
+        "rationale": "价格205.19略低于SMA20 214.62和SMA50 206.91，但高于SMA200 189.26，趋势中性；RSI 45.2正常，MACD -1.10低于信号1.26，柱为负；近1日微涨0.16%，近5日持平，无明确方向信号，技术面中性。"
+      },
+      {
+        "symbol": "DX-Y.NYB",
+        "display_name": "美元指数 (DX-Y.NYB)",
+        "stance": "偏上行",
+        "rationale": "价格99.81高于所有均线（SMA20 99.42、SMA50 98.9、SMA200 98.64），多头排列；RSI 58.7偏强，MACD柱0.046为正，接近52周高（-0.83%），美元指数技术面偏上行。"
       }
     ],
-    "risk_caveat": "过去走势不代表未来表现，本报告仅基于公开行情数据的技术指标解读，不构成任何投资建议。投资者应结合基本面与自身风险承受能力独立判断，仅供技术面参考。",
+    "risk_caveat": "过去走势不代表未来表现，本报告仅供技术指标解读参考，不构成任何投资建议。市场有风险，决策需谨慎。",
     "tickers": [
       {
         "symbol": "SPY",
@@ -350,18 +349,18 @@
         "group": "crypto",
         "currency": "USD",
         "exchangeName": "CCC",
-        "currentPrice": 63588.29,
-        "pct1Day": 0.042849056916856046,
-        "pct5Day": 0.5515071451130411,
-        "pct52WeekHigh": -49.6123118206166,
-        "pct52WeekLow": 7.578166123764952,
-        "sma20": 68143.853515625,
-        "sma50": 74419.619375,
-        "sma200": 77884.71736328125,
-        "rsi14": 33.00604000721532,
-        "macd": -3797.770053589011,
-        "macdSignal": -3570.2363629082515,
-        "macdHistogram": -227.53369068075926,
+        "currentPrice": 63802,
+        "pct1Day": 0.40728320958324427,
+        "pct5Day": 1.1276010543123414,
+        "pct52WeekHigh": -49.44296691700594,
+        "pct52WeekLow": 7.939719011604987,
+        "sma20": 67482.6427734375,
+        "sma50": 74145.651328125,
+        "sma200": 77766.7924609375,
+        "rsi14": 33.99519829192336,
+        "macd": -3590.5863040450713,
+        "macdSignal": -3574.881856833622,
+        "macdHistogram": -15.704447211449406,
         "trend": "bearish",
         "rsiState": "normal",
         "signals": [
@@ -377,18 +376,18 @@
         "group": "crypto",
         "currency": "USD",
         "exchangeName": "CCC",
-        "currentPrice": 1666.84,
-        "pct1Day": -0.325342500501672,
-        "pct5Day": -1.1596468118107972,
-        "pct52WeekHigh": -66.35184011734181,
-        "pct52WeekLow": 10.642772083217713,
-        "sma20": 1845.5570190429687,
-        "sma50": 2093.26875,
-        "sma200": 2420.8085119628904,
-        "rsi14": 30.93005397037797,
-        "macd": -138.34470556510087,
-        "macdSignal": -130.45353067112242,
-        "macdHistogram": -7.8911748939784445,
+        "currentPrice": 1675.34,
+        "pct1Day": 0.6132978102999886,
+        "pct5Day": -0.8761691087129863,
+        "pct52WeekHigh": -66.18025234706836,
+        "pct52WeekLow": 11.206991542018407,
+        "sma20": 1824.3387145996094,
+        "sma50": 2080.4275024414064,
+        "sma200": 2414.386969604492,
+        "rsi14": 32.1021338175851,
+        "macd": -132.54280262650286,
+        "macdSignal": -130.8932382495204,
+        "macdHistogram": -1.649564376982454,
         "trend": "bearish",
         "rsiState": "normal",
         "signals": [
@@ -404,18 +403,18 @@
         "group": "crypto",
         "currency": "USD",
         "exchangeName": "CCC",
-        "currentPrice": 66.88,
-        "pct1Day": 0.08678843645950324,
-        "pct5Day": 0.8586393988494624,
-        "pct52WeekHigh": -73.58713067696011,
-        "pct52WeekLow": 10.701497913091366,
-        "sma20": 74.05734443664551,
-        "sma50": 82.1047248840332,
-        "sma200": 100.3872299194336,
-        "rsi14": 34.524057659804726,
-        "macd": -5.509179594903401,
-        "macdSignal": -5.004730175085133,
-        "macdHistogram": -0.5044494198182674,
+        "currentPrice": 67.38,
+        "pct1Day": 0.9449163163488715,
+        "pct5Day": 0.8758859561473055,
+        "pct52WeekHigh": -73.38966604386322,
+        "pct52WeekLow": 11.52911078624546,
+        "sma20": 73.15732345581054,
+        "sma50": 81.72507278442383,
+        "sma200": 100.02902057647705,
+        "rsi14": 35.893354639806134,
+        "macd": -5.229967584189438,
+        "macdSignal": -5.051446132021736,
+        "macdHistogram": -0.17852145216770232,
         "trend": "bearish",
         "rsiState": "normal",
         "signals": [
@@ -659,7 +658,7 @@
         "pct1Day": 0.5377589122770264,
         "pct5Day": -1.0802420053820767,
         "pct52WeekHigh": -10.20612367420452,
-        "pct52WeekLow": 34.14050822122571,
+        "pct52WeekLow": 0,
         "sma20": 4.524449968338013,
         "sma50": 4.418099975585937,
         "sma200": 4.210479987859726,
@@ -670,6 +669,10 @@
         "trend": "bullish",
         "rsiState": "normal",
         "signals": [
+          {
+            "type": "near-52w-low",
+            "label": "接近 52 周低"
+          },
           {
             "type": "above-sma50-sma200",
             "label": "多头排列"
@@ -715,13 +718,13 @@
       "timestamp": "2026-06-13T00:00:00.000Z"
     },
     "crypto_global": {
-      "totalMarketCapUsd": 2256471806931.3853,
-      "total24hVolumeUsd": 122911403088.6768,
-      "marketCapChangePct24h": -0.2800703130226443,
-      "btcDominance": 56.43979722592816,
-      "ethDominance": 8.90958309085565,
-      "activeCryptocurrencies": 17477
+      "totalMarketCapUsd": 2264299876532.556,
+      "total24hVolumeUsd": 69088944417.67667,
+      "marketCapChangePct24h": 0.33658946623097785,
+      "btcDominance": 56.41493747534773,
+      "ethDominance": 8.918369329864635,
+      "activeCryptocurrencies": 17484
     },
-    "generated_at": "2026-06-13T04:45:01.324Z"
+    "generated_at": "2026-06-13T08:32:32.816Z"
   }
 }
